@@ -1,0 +1,137 @@
+.text-field {
+    -fx-background-color: #c5c5c5, white, white;
+    -fx-background-insets: 2 2 -2 2, 0 0 0 0, -1 -1 -1 -1;
+}
+
+.text-field:focused {
+    -fx-background-color: rgb(61, 255, 42), white, white;
+    -fx-background-insets: 2 2 -2 2, 0 0 0 0, -1 -1 -1 -1;
+}
+
+.root{
+    -fx-background-color: white;
+}
+
+.button{
+    -fx-background-color: linear-gradient(to right, rgb(0, 255, 60), rgb(0, 255, 235));
+    -fx-border-color: linear-gradient(to right, rgb(0, 255, 60), rgb(0, 255, 235));
+    -fx-border-radius: 100;
+    -fx-border-width: 0.5;
+    -fx-text-fill: white;
+    -fx-background-radius: 100;
+}
+
+.button:hover{
+    -fx-background-color: white;
+    -fx-border-color: linear-gradient(to right, rgb(0, 255, 60), rgb(0, 255, 235));
+    -fx-border-radius: 100;
+    -fx-border-width: 0.5;
+    -fx-text-fill: linear-gradient(to right, rgb(0, 255, 60), rgb(0, 255, 235));
+    -fx-background-radius: 100;
+}
+
+#signUpLabel:hover{
+    -fx-background-color: limegreen;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #cdfff5, #daffd2);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+.table-row-cell:even{
+    -fx-background-color: #f0ffe9;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:odd{
+    -fx-background-color: white;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:hover:even{
+    -fx-background-color: white;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:hover:odd{
+    -fx-background-color: #f0ffe9;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-view .table-row-cell:selected{
+    -fx-background-color: #daffd2;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-text-fill: black;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #cdfff5, #daffd2);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to bottom, #cdfff5, #daffd2);
+}
+
+.list-cell:even {
+    -fx-background-color: white;
+}
+.list-cell:odd {
+    -fx-background-color: #f0ffe9;
+}
+.list-cell:hover:even {
+    -fx-background-color: #f0ffe9;
+}
+.list-cell:hover:odd {
+    -fx-background-color: white;
+}
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-background-radius: 100;
+    -fx-border-color: rgba(131, 131, 131, 0.47);
+    -fx-border-radius: 100;
+    -fx-border-width: 0.7;
+}
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+.check-box:selected .box {
+    -fx-background-color: #46ff6f;
+    -fx-background-radius: 100;
+    -fx-border-color: rgba(131, 131, 131, 0.47);
+    -fx-border-radius: 100;
+    -fx-border-width: 0.7;
+}

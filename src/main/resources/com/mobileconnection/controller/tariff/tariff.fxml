@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="550.0" prefWidth="800.0" stylesheets="@../../../../style/style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mobileconnection.controller.tariff.Tariff">
+   <children>
+      <Ellipse fill="#1f93ff00" layoutX="591.0" layoutY="136.0" radiusX="35.0" radiusY="16.0" strokeType="INSIDE">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Ellipse>
+      <Circle layoutX="437.0" layoutY="183.0" radius="7.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="434.0" layoutY="180.0" radius="7.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="732.0" layoutY="52.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="729.0" layoutY="49.0" radius="20.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="473.0" layoutY="114.0" radius="16.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="470.0" layoutY="111.0" radius="16.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="648.0" layoutY="155.0" radius="19.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="645.0" layoutY="152.0" radius="19.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="494.0" layoutY="291.0" radius="23.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="491.0" layoutY="288.0" radius="23.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="509.0" layoutY="504.0" radius="17.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="506.0" layoutY="501.0" radius="17.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="658.0" layoutY="437.0" radius="17.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="655.0" layoutY="434.0" radius="17.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="276.0" layoutY="110.0" radius="35.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="62.0" layoutX="435.0" layoutY="50.0" strokeType="INSIDE" width="131.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow height="10.0" offsetX="3.0" offsetY="3.0" radius="4.5" width="10.0">
+               <color>
+                  <Color red="0.9263157844543457" green="0.9263157844543457" blue="0.9263157844543457" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="62.0" layoutX="616.0" layoutY="50.0" strokeType="INSIDE" width="131.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow height="10.0" offsetX="3.0" offsetY="3.0" radius="4.5" width="10.0">
+               <color>
+                  <Color red="0.9157894849777222" green="0.9157894849777222" blue="0.9157894849777222" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="62.0" layoutX="672.0" layoutY="153.0" strokeType="INSIDE" width="82.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow height="10.0" offsetX="3.0" offsetY="3.0" radius="4.5" width="10.0">
+               <color>
+                  <Color red="0.9157894849777222" green="0.9157894849777222" blue="0.9157894849777222" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="62.0" layoutX="435.0" layoutY="448.0" strokeType="INSIDE" width="149.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow height="10.0" offsetX="3.0" offsetY="3.0" radius="4.5" width="10.0">
+               <color>
+                  <Color red="0.9157894849777222" green="0.9157894849777222" blue="0.9157894849777222" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="62.0" layoutX="435.0" layoutY="373.0" strokeType="INSIDE" width="221.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow height="10.0" offsetX="3.0" offsetY="3.0" radius="4.5" width="10.0">
+               <color>
+                  <Color red="0.9157894849777222" green="0.9157894849777222" blue="0.9157894849777222" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="62.0" layoutX="435.0" layoutY="301.0" strokeType="INSIDE" width="117.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow height="10.0" offsetX="3.0" offsetY="3.0" radius="4.5" width="10.0">
+               <color>
+                  <Color red="0.9157894849777222" green="0.9157894849777222" blue="0.9157894849777222" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="62.0" layoutX="435.0" layoutY="227.0" strokeType="INSIDE" width="117.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow height="10.0" offsetX="3.0" offsetY="3.0" radius="4.5" width="10.0">
+               <color>
+                  <Color red="0.9157894849777222" green="0.9157894849777222" blue="0.9157894849777222" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="62.0" layoutX="552.0" layoutY="153.0" strokeType="INSIDE" width="106.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow height="10.0" offsetX="3.0" offsetY="3.0" radius="4.5" width="10.0">
+               <color>
+                  <Color red="0.9157894849777222" green="0.9157894849777222" blue="0.9157894849777222" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="62.0" layoutX="435.0" layoutY="153.0" strokeType="INSIDE" width="106.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow height="10.0" offsetX="3.0" offsetY="3.0" radius="4.5" width="10.0">
+               <color>
+                  <Color red="0.9157894849777222" green="0.9157894849777222" blue="0.9157894849777222" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Label fx:id="nameLabel" alignment="CENTER" layoutY="251.0" prefHeight="47.0" prefWidth="400.0" text="Назва">
+         <font>
+            <Font name="Gabriola" size="40.0" />
+         </font></Label>
+      <Button fx:id="backButton" layoutX="56.0" layoutY="60.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Назад">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="tariffTypeLabel" alignment="CENTER" layoutX="151.0" layoutY="310.0" prefHeight="18.0" prefWidth="97.0" text="Тариф" />
+      <Label fx:id="costLabel" layoutX="446.0" layoutY="60.0" text="Місячна абонплата" />
+      <Label fx:id="costValueLabel" layoutX="446.0" layoutY="87.0" text="0" />
+      <Label fx:id="callsLabel" layoutX="565.0" layoutY="122.0" text="Дзвінки">
+         <font>
+            <Font name="Gabriola" size="20.0" />
+         </font></Label>
+      <Label fx:id="callMinutesLabel" layoutX="446.0" layoutY="161.0" text="На цю мережу" />
+      <Label fx:id="callMinutesOnOtherNumbersLabel" layoutX="563.0" layoutY="160.0" text="На інші мережі" />
+      <Label fx:id="callMinutesInRoamingLabel" layoutX="681.0" layoutY="160.0" text="У роумінгу" />
+      <Label fx:id="callMinutesValueLabel" layoutX="446.0" layoutY="189.0" text="0" />
+      <Label fx:id="callMinutesOnOtherNumbersValueLabel" layoutX="559.0" layoutY="188.0" text="0" />
+      <Label fx:id="callMinutesInRoamingValueLabel" layoutX="681.0" layoutY="188.0" text="0" />
+      <Label fx:id="trafficLabel" layoutX="446.0" layoutY="235.0" text="Мобільний трафік" />
+      <Label fx:id="trafficValueLabel" layoutX="446.0" layoutY="264.0" text="0" />
+      <Label fx:id="freeSmsLabel" layoutX="446.0" layoutY="310.0" text="Безкоштовні СМС" />
+      <Label fx:id="freeSmsValueLabel" layoutX="446.0" layoutY="338.0" text="0" />
+      <Label fx:id="appsWithoutTrafficLabel" layoutX="446.0" layoutY="384.0" text="Додатки без використання трафіку" />
+      <Label fx:id="appsWithoutTrafficValueLabel" layoutX="446.0" layoutY="411.0" text="0" />
+      <Label fx:id="usersNumberLabel" layoutX="446.0" layoutY="457.0" text="Кількість користувачів" />
+      <Label fx:id="usersNumberValueLabel" layoutX="446.0" layoutY="485.0" text="0" />
+      <Label fx:id="daysOfUsingLabel" layoutX="631.0" layoutY="60.0" text="Час використання" />
+      <Label fx:id="daysOfUsingValueLabel" layoutX="631.0" layoutY="87.0" text="0" />
+      <Button fx:id="deleteButton" layoutX="97.0" layoutY="439.0" mnemonicParsing="false" onAction="#onDeleteButtonClick" text="Видалити">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="editButton" layoutX="230.0" layoutY="439.0" mnemonicParsing="false" onAction="#onEditButtonClick" text="Змінити">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Circle layoutX="273.0" layoutY="107.0" radius="35.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="323.0" layoutY="147.0" radius="12.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="320.0" layoutY="144.0" radius="12.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="288.0" layoutY="31.0" radius="23.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="285.0" layoutY="28.0" radius="23.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="361.0" layoutY="123.0" radius="17.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="358.0" layoutY="120.0" radius="17.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="322.0" layoutY="77.0" radius="14.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="319.0" layoutY="74.0" radius="14.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="290.0" layoutY="173.0" radius="14.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="287.0" layoutY="170.0" radius="14.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="351.0" layoutY="174.0" radius="7.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="348.0" layoutY="171.0" radius="7.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="749.0" layoutY="245.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="746.0" layoutY="242.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="570.0" layoutY="260.0" radius="11.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="567.0" layoutY="257.0" radius="11.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="414.0" layoutY="394.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="411.0" layoutY="391.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="633.0" layoutY="329.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <GaussianBlur radius="15.0" />
+         </effect>
+      </Circle>
+      <Circle layoutX="630.0" layoutY="326.0" radius="13.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.38814815878868103" green="1.0" blue="0.3444444537162781" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.31481480598449707" green="0.9657407402992249" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Line fx:id="line" endX="48.00001525878906" endY="-57.70001220703125" layoutX="182.0" layoutY="510.0" startX="-15.691024780273438" startY="-57.70001220703125">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.3444444537162781" green="1.0" blue="0.431851863861084" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.42222222685813904" green="1.0" blue="0.8459259271621704" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+   </children>
+</Pane>

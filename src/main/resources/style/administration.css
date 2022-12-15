@@ -1,0 +1,20 @@
+.root{
+    -fx-background-color: white;
+}
+
+#backButton, #saveButton{
+    -fx-background-color: linear-gradient(to right, rgb(0, 255, 60), rgb(0, 255, 235));
+    -fx-border-color: linear-gradient(to right, rgb(0, 255, 60), rgb(0, 255, 235));
+    -fx-border-radius: 100;
+    -fx-border-width: 0.5;
+    -fx-text-fill: white;
+    -fx-background-radius: 100;
+}
+#backButton:hover, #saveButton:hover{
+    -fx-background-color: white;
+    -fx-border-color: linear-gradient(to right, rgb(0, 255, 60), rgb(0, 255, 235));
+    -fx-border-radius: 100;
+    -fx-border-width: 0.5;
+    -fx-text-fill: linear-gradient(to right, rgb(0, 255, 60), rgb(0, 255, 235));
+    -fx-background-radius: 100;
+}
